@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Djurati";
+  src: url(/fonts/Dhurjati-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Faster-one";
+  src: url(/fonts/FasterOne-Regular.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+
+body {
+  background: url(/images/beachBackground.png) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Djurati", sans-serif;
+  height: 1024px;
+}
+
+.contacts {
+  width: 440px;
+  height: 78px;
+  background-color: white;
+  border: none;
+  font-family: "Djurati", sans-serif;
+  border-radius: 20px;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.Cards {
+  width: 253px;
+  height: 368px;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.greece {
+  background: url(/images/greece.png) no-repeat center center;
+  border-radius: 40px;
+}
+
+.bulgaria {
+  background: url(/images/bulgaria.png) no-repeat center center;
+  border-radius: 40px;
+}
+
+.middle {
+  background: url(/images/turkey.png) no-repeat center center;
+  border-radius: 40px;
+  width: 281px;
+  height: 408px;
+  flex-direction: column;
+}
+
+.italy {
+  background: url(/images/italy.png) no-repeat center center;
+  border-radius: 40px;
+}
+
+.spain {
+  background: url(/images/spain.png) no-repeat center center;
+  border-radius: 40px;
+}
+
+.advertisement {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 72px;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  margin: 0;
+  font-family: "Faster-one";
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.2em;
+}
+
+.slogan-wrapper {
+  width: 511px;
+  height: auto;
+  color: white;
+  font-size: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 0.8em;
+  margin-bottom: 42px;
+  text-shadow: 0px 3px 3px #95969b;
+}
+
+.menu {
+  position: fixed;
+  height: 23px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 59px;
+  top: 36px;
+  cursor: pointer;
+}
